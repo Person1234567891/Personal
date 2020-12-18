@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: red;
+    margin: auto;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+#MyCarousel{
+    background-color:orangered; 
+}
+#MyCarousel img{
+    margin-top:35px;
+    height:300px;
+}
+#MyCarousel p{
+    margin-bottom:15px;
+    color:white;
+    margin-top:15px;
+    font-size:25px;
+}
